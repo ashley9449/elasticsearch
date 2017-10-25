@@ -687,7 +687,7 @@ parameter is inspected to automatically determine the content type
 
 A strict mode can be enabled which disables auto-detection and requires
 that all requests with a body have a Content-Type header that maps to
-a supported format. To enabled this strict mode, add the following
+a supported format. To enable this strict mode, add the following
 setting to the `elasticsearch.yml` file:
 
     http.content_type.required: true
